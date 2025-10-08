@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  my-bar-app:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-10-08T19:24:30.5231683+05:30"
+    description: A Helm chart for installing http-echo web-server that echos back
+      a message
+    digest: d43f657bbb14e820af2ae1f2f9c0f54323de209532d54aac04706000d5e86a5c
+    name: my-bar-app
+    type: application
+    urls:
+    - https://stevesayantan.github.io/helm-repo/my-bar-app-1.0.0.tgz
+    version: 1.0.0
+  my-foo-app:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-10-08T19:24:30.5331638+05:30"
+    description: A Helm chart for installing http-echo web-server that echos back
+      a message
+    digest: c84936256635c31effa04a7645e7df7caaa5f350870c08d92572c78363e4adea
+    name: my-foo-app
+    type: application
+    urls:
+    - https://stevesayantan.github.io/helm-repo/my-foo-app-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-10-08T19:24:30.5161726+05:30"
